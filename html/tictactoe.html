@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/tictactoe.css">
+    <script src="../scripts/tictactoe.js"></script>
+    <title>Tic Tac Toe</title>
+</head>
+<h1>Tic Tac Toe</h1>
+<body>
+    <div class="row">
+        <img src="../images/Blank.png" alt="a blank image" class="boxes" id="top-left">
+        <img src="../images/Blank.png" alt="a blank image" class="boxes" id="top-center">
+        <img src="../images/Blank.png" alt="a blank image" class="boxes" id="top-right">    
+    </div>
+    <div class="row">
+        <img src="../images/Blank.png" alt="a blank image" class="boxes" id="middle-left">
+        <img src="../images/Blank.png" alt="a blank image" class="boxes" id="middle-center">
+        <img src="../images/Blank.png" alt="a blank image" class="boxes" id="middle-right">
+    </div>
+    <div class="row">
+        <img src="../images/Blank.png" alt="a blank image" class="boxes" id="bottom-left">
+        <img src="../images/Blank.png" alt="a blank image" class="boxes" id="bottom-center">
+        <img src="../images/Blank.png" alt="a blank image" class="boxes" id="bottom-right">
+    </div>
+    <h1 id="announceWinner"></h1>
+    <div class="row">
+        <button id="startX" onclick="setStart(1)">Start with X</button>
+        <button id="startO" onclick="setStart(0)">Start with O</button>
+    </div>
+    <div class="row">
+        <button onclick="restartGame()">Restart the Game</button>
+    </div>
+
+</body>
+</html>

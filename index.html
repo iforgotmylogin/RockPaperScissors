@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/rockpaperscissors.js"></script>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <a href="html/tictactoe.html">Tic Tac Toe Page</a>
+    <div id="nameblock">
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+        </form>
+    </div>
+
+    <div id="roundblock">
+        <form>
+            <label for="rounds">How many rounds would you like to play:</label><br>
+            <input type="text" id="rounds" name="rounds"><br>
+        </form>
+    </div>
+
+    <div id="answerblock">
+        <form id="answer_form">
+            <label for="move">What are you throwing?</label><br>
+            <input type="text" id="move" name="move"><br>
+        </form>
+        <button type="button" onclick="sendResponse()">Throw it!</button>
+    </div>
+    <p id="computer">The Computer Throws</p>
+    <p id="response"></p>
+    <p id="human">You threw</p>
+    <p id="player_move"></p>
+
+</body>
+</html>

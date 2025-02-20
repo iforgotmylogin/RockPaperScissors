@@ -1,0 +1,43 @@
+body{
+    background-color: lightgray;
+}
+#nameblock{
+    margin: 5em;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+}
+#roundblock{
+    margin: 3em;
+    color: brown;
+    text-align: center;
+    font-size: 25px;
+}
+#answerblock{
+    border: black solid 3px;
+    text-align: center;
+    margin: auto;
+    max-width: fit-content;
+    font-size: 25px;
+}
+#answer_form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#response{
+    text-align: center;
+}
+#computer{
+    font-size: 20px;
+    text-align: center;
+}
+#human{
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    padding: 1em;
+    margin: 1em;
+}
